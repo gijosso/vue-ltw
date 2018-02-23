@@ -116,7 +116,7 @@
       // check whether user is connected
       // redirects onto LP if not
       if (self.$store.state.madjoh.token === '') {
-        //self.$router.push({name: 'LandingPage'});
+        self.$router.push({name: 'LandingPage'});
       }
       else {
         // send all requests altogether
